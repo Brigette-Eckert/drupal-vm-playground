@@ -15,12 +15,20 @@
             "homepage": "http://oxy.fi"
         }
     ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
     "support": {
         "issues": "https://github.com/geerlingguy/drupal-vm/issues",
         "source": "https://github.com/geerlingguy/drupal-vm",
         "docs": "http://docs.drupalvm.com"
     },
-    "require": {},
+    "require": {
+        "drupal/components": "^1.0"
+    },
     "config": {
         "process-timeout": 1800
     },
